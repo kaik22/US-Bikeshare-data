@@ -68,9 +68,9 @@ def time_filter_input():
     Call for getting if the user wants to apply any type of filter on the data
     Return:
     Response to question
-    str - 'Yes, I want to filter by month', 
-    str - 'Yes, I want to to filter by a specifc day',
-    str - 'Yes, I want to filter by a specific weekday',
+    str - 'Yes, I want to filter by month'
+    str - 'Yes, I want to to filter by a specifc day'
+    str - 'Yes, I want to filter by a specific weekday'
     str - 'No'
     """
     #Question to be made and options
@@ -188,7 +188,7 @@ def wantindividualdata():
     """
     Call for making the question to see if the user want to see individual trip data
     Return:
-    (str) - yes/no response
+    (str) - yes/no
     """     
     #Question to be made and options  
     ind_trip = [
